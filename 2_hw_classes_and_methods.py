@@ -1,5 +1,8 @@
 '''
 
+10/27/18 Ken
+My solution for hw 2.
+
 Let's create a class to manage invoices. Its constructor will take
 an invoice number, the customer name, and the amount of money owed.
 

@@ -1,5 +1,14 @@
 '''
 
+10/27/18 Ken
+My first solution at the classesandmethods_extra.py hw. Trying to build classes
+by following a doctest is not the easiest task. It took an iteration to figure
+out the desired class interactions.
+
++ I rewrote a solution
++ RUN this as a regular PyCharm Run configuration and NOT in the doctest mode
+
+
 Let's create a class to manage invoices. Its constructor will take
 an invoice number, the customer name, and the amount of money owed.
 
@@ -117,7 +126,6 @@ class Invoice(object):
         self.customer = customer
 
         # invoice amount
-        # better if named invoice 'balance'
         self.amount = amount
 
         # sum of payments made
